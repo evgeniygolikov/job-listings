@@ -1,0 +1,12 @@
+.header {
+    height: $header-height;
+
+    background-image: url("../images/background-header-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    @media #{$screen-medium} {
+        background-image: url("../images/background-header-desktop.svg");
+    }
+}
