@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+
+    -webkit-tap-hightlight-color: transparent;
+
+    &::before,
+    &::after {
+        box-sizing: border-box;
+    }
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-family: $font-family;
+    font-size: 100%;
+
+    color: $color-text-primary;
+    background-color: $color-background-primary;
+
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    font-size: $font-size-medium;
+    line-height: $line-height-medium;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+address,
+label {
+    margin-top: 0;
+    margin-bottom: 0;
+}

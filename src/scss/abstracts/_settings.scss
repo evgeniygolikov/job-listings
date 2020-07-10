@@ -1,0 +1,73 @@
+/**
+ * Colors
+ */
+$white: hsl(0, 0%, 100%);
+$desaturated-dark-cyan: hsl(180, 29%, 50%);
+$light-grayish-cyan: hsl(180, 52%, 96%);
+$lighter-grayish-cyan: hsl(180, 31%, 95%);
+$dark-grayish-cyan: hsl(180, 8%, 52%);
+$very-dark-grayish-cyan: hsl(180, 14%, 20%);
+
+$color-brand-primary: $desaturated-dark-cyan;
+
+$color-text-primary: $very-dark-grayish-cyan;
+$color-text-secondary: $dark-grayish-cyan;
+$color-text-brand: $color-brand-primary;
+$color-text-inverse: $white;
+
+$color-background-primary: $light-grayish-cyan;
+$color-background-secondary: $lighter-grayish-cyan;
+$color-background-inverse: $white;
+
+
+
+/**
+ * Fonts
+ */
+$font-path: "../fonts/";
+$font-family-default: sans-serif;
+$font-family-custom: "Spartan";
+$font-family: $font-family-custom, $font-family-default;
+
+$font-size-large: rem(34px);
+$font-size-big: rem(20px);
+$font-size-medium: rem(18px);
+$font-size-small: rem(12px);
+
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+$line-height-large: (34px / 34px + 0.0001);
+$line-height-big: (24px / 20px + 0.0001);
+$line-height-medium: (22px / 18px + 0.0001);
+$line-height-small: (16px / 12px + 0.0001);
+
+
+
+/**
+ * Breakpoints
+ */
+$screen-giant: '(min-width: 120em)'; // GIANT: 1920px
+$screen-huge: '(min-width: 100em)';  // HUGE: 1600px
+$screen-large: '(min-width: 90em)';  // LARGE: 1440px
+$screen-big: '(min-width: 80em)';    // BIG: 1280px
+$screen-medium: '(min-width: 64em)'; // MEDIUM: 1024px
+$screen-small: '(min-width: 48em)';  // SMALL: 768px
+$screen-tiny: '(min-width: 32em)';   // TINY: 512px
+
+
+
+/**
+ * Layout
+ */
+$header-height: rem(156px);
+
+$container-max-width: rem(1280px);
+$container-padding: rem(24px);
+
+
+
+/**
+ * Miscellaneous
+ */
+$border-radius: rem(4px);

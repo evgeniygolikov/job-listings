@@ -1,0 +1,68 @@
+.text {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    &--large {
+        font-size: $font-size-large;
+        line-height: $line-height-large;
+    }
+
+    &--big {
+        font-size: $font-size-big;
+        line-height: $line-height-big;
+    }
+
+    &--medium {
+        font-size: $font-size-medium;
+        line-height: $line-height-medium;
+    }
+
+    &--small {
+        font-size: $font-size-small;
+        line-height: $line-height-small;
+    }
+
+    &--bold {
+        font-weight: $font-weight-bold;
+    }
+
+    &--medium {
+        font-weight: $font-weight-medium;
+    }
+
+    &--primary {
+        color: $color-text-primary;
+    }
+
+    &--secondary {
+        color: $color-text-secondary;
+    }
+
+    &--brand {
+        color: $color-text-brand;
+    }
+
+    &--inverse {
+        color: $color-text-inverse;
+    }
+
+    &--left {
+        text-align: left;
+    }
+
+    &--center {
+        text-align: center;
+    }
+
+    &--right {
+        text-align: right;
+    }
+
+    &--uppercase {
+        text-transform: uppercase;
+    }
+
+    &--lowercase {
+        text-transform: lowercase;
+    }
+}

@@ -1,0 +1,8 @@
+.job-listing {
+    display: grid;
+    grid-gap: rem(16px);
+
+    @media #{$screen-small} {
+        grid-gap: rem(24px);
+    }
+}

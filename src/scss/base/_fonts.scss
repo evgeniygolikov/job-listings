@@ -1,0 +1,17 @@
+@font-face {
+    font-family: $font-family-custom;
+    font-weight: $font-weight-bold;
+    font-style: normal;
+    src:
+        url("#{$font-path}#{$font-family-custom}-Bold.woff2") format("woff2"),
+        url("#{$font-path}#{$font-family-custom}-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: $font-family-custom;
+    font-weight: $font-weight-medium;
+    font-style: normal;
+    src:
+        url("#{$font-path}#{$font-family-custom}-Medium.woff2") format("woff2"),
+        url("#{$font-path}#{$font-family-custom}-Medium.woff") format("woff");
+}
